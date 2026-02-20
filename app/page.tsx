@@ -126,8 +126,7 @@ export default function Page() {
   const isEmpty = messages.length === 0
 
   return (
-    <div className="h-screen w-screen flex items-center justify-center bg-neutral-50 p-4">
-    <div className="w-full max-w-xl h-full max-h-[700px] flex flex-col bg-white rounded-2xl border border-neutral-200 shadow-sm overflow-hidden">
+    <div className="flex flex-col bg-white" style={{ height: '100dvh' }}>
 
       {/* Header */}
       <header className="flex-shrink-0 px-5 py-4 border-b border-neutral-200">
@@ -245,7 +244,6 @@ export default function Page() {
           </button>
         </div>
       </div>
-    </div>
     </div>
   )
 }
