@@ -1,0 +1,13 @@
+{
+  "agent_name": "Calculator Agent",
+  "agent_id": "6998bfc611c834a827fbb621",
+  "agent_type": "json",
+  "accessor": "json",
+  "has_module_outputs": false,
+  "schema": {
+    "answer": "string - The final answer",
+    "steps": "array of strings - Step-by-step explanation",
+    "expression": "string - The interpreted mathematical expression",
+    "category": "string - Type of math problem"
+  }
+}

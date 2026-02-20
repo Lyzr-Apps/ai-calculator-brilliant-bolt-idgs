@@ -1,0 +1,24 @@
+{
+  "agent_name": "Calculator Agent",
+  "agent_id": "6998bfc611c834a827fbb621",
+  "description": "Interprets mathematical problems in natural language or standard notation, performs calculations (arithmetic, algebra, percentages, unit conversions, word problems), and returns answers with clear step-by-step explanations",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "answer": "string",
+    "steps": [
+      "string"
+    ],
+    "expression": "string",
+    "category": "string"
+  },
+  "example_response": {
+    "answer": "The final answer to the math problem, clearly formatted",
+    "steps": [
+      "sample string"
+    ],
+    "expression": "The mathematical expression interpreted from the user input",
+    "category": "The type of math problem: arithmetic, algebra, percentage, unit_conversion, word_problem, or other"
+  }
+}
